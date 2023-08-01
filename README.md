@@ -1,1 +1,1 @@
-first project in the foundations
+Projects and Assignments from The Odin Project
