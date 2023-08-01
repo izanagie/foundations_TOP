@@ -3,6 +3,8 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-items:center;
+    justify-items: center;
     align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
 }
