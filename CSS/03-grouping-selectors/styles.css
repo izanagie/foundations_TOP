@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.one, .two{
+    border: 2px grey solid;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.one{
+    background-color: black;
+    color: white;
+}
+
+.two{
+    background-color: yellow;
+    color: black;
+}
