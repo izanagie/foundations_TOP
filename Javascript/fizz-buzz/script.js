@@ -1,4 +1,4 @@
-let number = prompt("ente a number")
+let number = 100
 
 function fizzBuzz(){
     for(let i=0; i<=number;i++){
