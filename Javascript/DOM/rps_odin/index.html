@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper and scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+</head>
+<body>
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <div class="game-info">
+        <h2 id="head1">Choose your sign</h2>
+        <h3>First to 5 points wins the game</h3>
+    </div>
+    <div class="score-card">
+        <div class="signs"><span class="sign1">❔</span><span class="sign2">❔</span></div>
+        <div class="scores"><p>Player: <span id="score1">0</span></p><p>Player: <span id="score2">0</span></p></div>
+    </div>
+    <div id="buttons-box">
+        <div class="buttons">
+        <button class="feature" id="rock"><span class="feature2">✊</span></button>
+        <button class="feature" id="paper"><span class="feature2">✋</span></button>
+        <button class="feature" id="scissors"><span class="feature2">✌</span></button>
+        </div>
+    </div>
+    <footer><span class="foot">copyright c 2023</span></footer>
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>

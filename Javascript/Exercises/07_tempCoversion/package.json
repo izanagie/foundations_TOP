@@ -1,0 +1,12 @@
+{
+  "name": "07_tempcoversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tempConversion.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
